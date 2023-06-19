@@ -1,0 +1,41 @@
+header{
+    padding: 2.3rem 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__links{
+    opacity: 0;
+    visibility: hidden;
+    background-color: white;
+    padding: 1rem 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    z-index: 1;
+    transition: .6s;
+}
+
+.nav__links > li{
+    list-style: none;
+}
+
+.nav__open, .nav__close{
+    border: none;
+    background-color: white;
+}
+
+.nav__visible{
+    opacity: 1;
+    visibility: visible;
+}
+
+
