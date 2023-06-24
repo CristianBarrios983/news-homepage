@@ -26,11 +26,23 @@ nav{
 
 .nav__links > li{
     list-style: none;
+    font-weight: 500;
+    color: var(--Dark-grayish-blue);
+}
+
+.nav__links > li:hover{
+    cursor: pointer;
+    color: var(--Soft-red);
 }
 
 .nav__open, .nav__close{
     border: none;
     background-color: white;
+    cursor: pointer;
+}
+
+.nav__close{
+    margin-bottom: 1rem;
 }
 
 .nav__visible{
